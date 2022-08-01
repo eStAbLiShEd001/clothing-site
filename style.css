@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 0, 32);
+    color: white;
+    font-size: 15px;
+    padding: 0 8%;
+}
+
+/* Navigations */
+
+nav {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    text-decoration: underline;
+}
+/* a::after {
+    content: "";
+    width: 50px;
+
+} */
+
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+nav ul li {
+    padding: 0 2%;
+    
+}
+
+.logo {
+    margin-right: auto;
+}
+
+/* Main section */
+
+.main-content h1 {
+    font-size: 2rem;
+    padding-top: 4%;
+}
+.main-content h3, h2{
+    font-size: 1.2rem;
+}
+
+.main-content p {
+    margin: 2% 0;
+    padding-top: 2%;
+}
+.main-content button {
+    margin-top: 5%;
+    padding: 4% 6%;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.select-size .select-size-child {
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+}
+.main-content-2 h2 {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.main-content-2 {
+    margin-top: 15%;
+}
+
+.select-size .select-size-child h4 {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 2% 2%;
+    border-radius: 3px;
+    margin: 3% 1%;
+}
+.sub-heading {
+    margin-top: 3%;
+}
+
+/* section part */
+section {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+
+}
+
+.section-part {
+    background-color: rgba(71, 71, 71, 0.486);
+    border-radius: 10px;
+    height: 10pc;
+    width: 100%;
+    padding: 0 4%;
+    padding-top: 2%;
+}
+.section-part h5 {
+    font-size: 1.1rem;
+    padding-top: 3%;
+}
+.section-part p {
+    margin-top: 2%;
+    font-size: 0.8rem;
+}
+.section-part h1 {
+    margin-top: 10%;
+    font-size: 1.4rem;
+}
+.my-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 375px) {
+
+}
