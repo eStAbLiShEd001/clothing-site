@@ -41,10 +41,10 @@ nav ul {
     list-style-type: none;
     display: none;
 }
-nav ul li {
+/* nav ul li {
     padding: 0 2%;
     
-}
+} */
 
 .logo {
     margin-right: auto;
@@ -79,7 +79,6 @@ nav ul li {
     display: flex;
     margin-top: 5%;
     flex-wrap: wrap;
-    
 }
 .main-content-2 h2 {
     font-size: 1.2rem;
@@ -139,6 +138,82 @@ section {
     align-items: center;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 700px) {
+    body {
+        padding: 0 4%;
+    }
+    .logo {
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #4f28ff;
+    transition: 2s;
+}
+main {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.main-content h3, h2{
+    font-size: 1.7rem;
+}
+.main-content h1 {
+    font-size: 3rem;
+    padding-top: 1%;
+    letter-spacing: 2px;
+}
+.main-content p {
+    font-size: 1.5rem;
+     padding: 0;
+}
+.main-content button {
+    margin-top: 0.8%;
+    padding: 1.2% 3%;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.select-size .select-size-child h4 {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 2% 2%;
+    border-radius: 3px;
+    margin: 3% 1%;
+}
+
+
 
 }
